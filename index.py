@@ -67,8 +67,7 @@ while True:
 #     print(e.get("name"))
 #     print(e.get("ISBN"))
 print(len(article_books))
-sub_driver.close()
-driver.close()
-input()
+sub_driver.quit()
+driver.quit()
 
 
